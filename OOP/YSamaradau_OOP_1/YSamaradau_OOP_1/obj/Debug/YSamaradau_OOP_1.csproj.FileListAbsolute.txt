@@ -1,0 +1,6 @@
+D:\YSamaradau\OOP\YSamaradau_OOP_1\YSamaradau_OOP_1\bin\Debug\YSamaradau_OOP_1.exe.config
+D:\YSamaradau\OOP\YSamaradau_OOP_1\YSamaradau_OOP_1\bin\Debug\YSamaradau_OOP_1.exe
+D:\YSamaradau\OOP\YSamaradau_OOP_1\YSamaradau_OOP_1\bin\Debug\YSamaradau_OOP_1.pdb
+D:\YSamaradau\OOP\YSamaradau_OOP_1\YSamaradau_OOP_1\obj\Debug\YSamaradau_OOP_1.csprojResolveAssemblyReference.cache
+D:\YSamaradau\OOP\YSamaradau_OOP_1\YSamaradau_OOP_1\obj\Debug\YSamaradau_OOP_1.exe
+D:\YSamaradau\OOP\YSamaradau_OOP_1\YSamaradau_OOP_1\obj\Debug\YSamaradau_OOP_1.pdb
