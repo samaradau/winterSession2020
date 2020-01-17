@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using YSamaradau_OOP_2.VFS;
 
 namespace YSamaradau_OOP_2
 {
@@ -10,6 +7,15 @@ namespace YSamaradau_OOP_2
     {
         public static void Main(string[] args)
         {
+            var vfs = VFSFactory.GetVFS(VFSParams.FAT32);
+            vfs.Mount(new Directory("somePath"), "somepath");
+            var mounted = vfs.GetMountedPoints();
+
+            foreach (var item in mounted)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
         }
     }
 }

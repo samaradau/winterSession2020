@@ -2,6 +2,7 @@
 {
     public enum VFSParams
     {
-        
+        NTFS,
+        FAT32
     }
 }

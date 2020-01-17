@@ -5,12 +5,15 @@ namespace YSamaradau_OOP_2.VFS
 {
     public class VFSFactory
     {
-        public IVFS GetVFS(VFSParams vfsParam)
+        public static IVFS GetVFS(VFSParams vfsParam)
         {
             switch (vfsParam)
             {
-                case VFSParams.Get:
+                case VFSParams.NTFS:
+                    return new NTFS();
                     break;
+                case VFSParams.FAT32:
+                    return new FAT32();
             }
 
             throw new NotImplementedException();

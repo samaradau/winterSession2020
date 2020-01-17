@@ -45,11 +45,15 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VFS\Directory.cs" />
+    <Compile Include="VFS\FAT32.cs" />
+    <Compile Include="VFS\File.cs" />
     <Compile Include="VFS\Interfaces\IDirectory.cs" />
     <Compile Include="VFS\Interfaces\IMountPoint.cs" />
     <Compile Include="VFS\Interfaces\IFile.cs" />
     <Compile Include="VFS\Interfaces\IVFS.cs" />
     <Compile Include="VFS\Interfaces\IVFSObject.cs" />
+    <Compile Include="VFS\NTFS.cs" />
     <Compile Include="VFS\VFSFactory.cs" />
     <Compile Include="VFS\VFSParams.cs" />
   </ItemGroup>
